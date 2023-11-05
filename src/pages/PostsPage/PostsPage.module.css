@@ -1,0 +1,83 @@
+.posts {
+  margin: 50px 0 210px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  width: 40%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+.search img {
+  width: 20px;
+  top: 65px;
+  right: 20px;
+  position: absolute;
+}
+
+.search__input {
+  width: 400px;
+  height: 40px;
+  padding: 15px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.search__select {
+  width: 110px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid blue;
+  cursor: pointer;
+
+}
+
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-width: 40%;
+  border: 2px solid blue;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.post_actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.post__title {
+  color: #242424;
+}
+
+.post__title:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.createPost_link:hover {
+  text-decoration: underline;
+
+}

@@ -1,0 +1,43 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.active {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cancel_btn {
+  background-color: #e05d4e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.cancel_btn:hover {
+  background-color: #fff;
+}
+
+.textarea_title {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  resize: none;
+  border: none;
+  font-size: 32px;
+}
+
+.textarea_body {
+  text-align: center;
+  width: 100%;
+  min-height: 250px;
+  resize: none;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+}
